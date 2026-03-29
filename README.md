@@ -276,4 +276,19 @@ https://portal.azure.com
 - This demonstrates:
   - Real-time threat detection in a cloud environment 
   - Effective log collection and enrichment  
-  - Practical use of SIEM for security monitoring and analysis  
+  - Practical use of SIEM for security monitoring and analysis
+  
+  
+---
+
+- Additional attack activity was observed, including failed login attempts originating from the United States and Taiwan.
+
+- The attack map was refined to improve visualization:
+
+  - Local activity (Portugal / internal testing) is highlighted in green 
+  - A single failed login attempt is displayed in yellow 
+  - Multiple failed login attempts from the same source are displayed in red
+
+- This color logic provides a clearer representation of attack intensity and distinguishes between benign, low, and high-risk activity.
+
+![Updated Attack Map](images/attack-map-updated.png)
