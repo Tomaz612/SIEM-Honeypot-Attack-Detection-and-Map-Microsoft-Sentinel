@@ -250,7 +250,7 @@ https://portal.azure.com
   
 ## Part 7. Observing Real Attack Activity
 
-- After leaving the virtual machine exposed to the internet for some time (~1–2 hours), external login attempts were observed.
+- After leaving the virtual machine exposed to the internet for approximately 1–2 hours, external login attempts were observed.
 
 - SecurityEvent logs showing multiple failed login attempts:
 
@@ -273,7 +273,7 @@ https://portal.azure.com
 
 - Key observations:
   - The exposed VM attracted real-world unauthorized access attempts 
-  - Threat intelligence enrichment allowed identification of malicious sources 
+  - Threat intelligence enrichment enabçe identification of malicious sources 
   - Geographic visualization provided clear insight into attack origins
 
 ---
@@ -291,7 +291,7 @@ https://portal.azure.com
 - The attack map was refined to improve visualization:
 
   - Local activity (Portugal / internal testing) is highlighted in green 
-  - A single failed login attempt are displayed in yellow
+  - A single failed login attempt is displayed in yellow
   - Multiple failed login attempts from the same source are displayed in red
 
 - This color logic provides a clearer representation of attack intensity and distinguishes between benign, low, and high-risk activity.
