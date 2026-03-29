@@ -55,9 +55,9 @@ https://portal.azure.com
 ---
 
 - Disable Windows Firewall:
- - Turn off Domain Profile
- - Turn off Private Profile
- - Turn off Public Profile
+  - Turn off Domain Profile
+  - Turn off Private Profile
+  - Turn off Public Profile
 
 ![Firewall Disabled](images/firewall-disabled.png)
 
